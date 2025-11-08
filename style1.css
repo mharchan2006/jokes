@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Changa", sans-serif ;
+    line-height: 1.6;
+    background-image:url(https://media.tenor.com/nRyiGCSh0cQAAAAM/pokemon-pikachu.gif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-color: aquamarine;
+}
+.hello{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2 rem;
+}
+.hello h1{
+    font-size: 70px;
+    color:red;
+    margin-bottom: 2 rem;
+}
+.button{
+    display: inline-block;
+    padding: 2 rem;
+    background:linear-gradient(to bottom,rgb(242, 245, 86));
+    color: oklab(60.336999999999996% 0.2144 0.11884);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.8s;
+    box-shadow: 0 5px 10px rgba(126, 5, 5, 0.2);
+    border:none;
+    cursor: pointer;
+    font-size:2rem;
+    margin:30px;
+}
+.hello p{
+    font-size: 35px;
+    color:white;
+    margin-bottom: 2 rem;
+}
