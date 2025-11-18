@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Courier Prime",monospace;
+    line-height: 1.7;
+    background-color: oklab(60.468999999999994% 0.03197 -0.16822 / 0.822);
+}
+header{
+    background-color: lch(85.11% 7.62 186.97);
+    color: aquamarine;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px black(0,0,0,0.1);
+}
+nav{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:brown;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    gap:3rem;
+}
+nav li{
+    font-size: 1.2rem;
+}
+nav li a{
+    color: cadetblue;
+    text-decoration: none;
+    transition:opacity 0.3s;
+    font-weight: 300;
+}
+nav a:hover{
+    opacity: 0.2;
+}
+.hero{
+ min-height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background-color: linear-gradient(145deg, #FAEBD7 0%, #000080 100%);
+ padding: 2rem;
+}
+.hero h1{
+    font-size: 50px;
+    color: burlywood;
+    margin-bottom: 2rem;
+}
+.hero p{
+    font-size:50px;
+    color:coral;
+    margin-bottom: 2rem;
+}
+#btn{
+    display:inline-block;
+    padding:0.8rem 2rem;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 8px;
+    transition: transform 0.7s,box-shadow 0.7s;
+    border: none;
+    cursor: pointer;
+    font: 1rem;
+}
+.btn:hover{
+    transition: translate(3px);
+}
+footer{
+    background-color: lab(81.39% -5.75 -6.48);
+    color: #f57f1e;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px black(0,0,0,0.1);
+}

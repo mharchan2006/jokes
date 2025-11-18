@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <marquee>"Merry Christmas"</marquee>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>my portfolio</h1>
+
+                <img src="https://i.pinimg.com/736x/2d/95/e5/2d95e5886fc4c65a6778b5fee94a7d59.jpg" alt="logo" width="35" height="35">
+
+            </div>
+            <ul>
+                <li>
+                    <a href="#home" onclick="alert('home link clicked');">Home</a>
+                    <a href="#about" onclick="alert('about link clicked');">About</a>
+                    <a href="#contacts" onclick="alert('contacts link clicked');">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>  
+
+<section id="home">
+    <div class="home active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>welcome</h1>
+                <p class="headline">Curiosity is my only filter</p>
+                <h2 id="typewriter-text"class="headline"></h2>
+                <button id="btn">BEGIN</button>
+            </div>
+        </section>
+    </div>
+</section>
+<section id="about">
+    <div class="about">
+    <section class="about-section">
+        <div class="about-content">
+            <h2>My story</h2>
+            <p>I am <b>Harini.M</b>.A second year <b>Information Technology</b> student at IFET college of engineering.I am deeply passionate about <i>travelling to experience the natural wonders</i>.Watching series ,movies and reading <i>fantasy books</i> are my favourite pastimes.<br>What truly sets me apart is the conviction that comes from knowing <i>what a grand failure looks like</i>.This perspective fuels my determination to <b>Work Hard</b> and my <i>curiosity</i> drives me to learn and implement new ideas,as I find immense happiness in achieving a correct outcome from the start.I’m currently doing an internship in the MERN stack and have gained strong foundational skills in HTML, CSS, and JavaScript. I’m still a beginner in full-stack development, but I’m learning actively every day and improving my understanding of real-world web development. I’m excited to keep growing my skills and explore advanced topics in the MERN stack step by step.</p></div>
+        <hr style="border: 2px solid #333;width: 100%;">
+        </div>
+    </section>
+    <section id="education">
+        <div class="education">
+            <section class="education-section">
+                <div class="education-content">
+                    <h2>Education📔</h2>
+                    <h3>School Education</h3>
+                    <p>1.Aristo Public School,Cuddalore(CBSE)<br>class 10 percentage:87%<br>class 12 percentage:90.4%</p>
+                    <h3>Undergraduate Education</h3>
+                    <p>B.tech in Information Technology<br>IFET College of Engineering,Villupuram(2023-2028)<br>First-Year CGPA:9.57.</p>
+                            <hr style="border: 2px solid #333;width: 100%;">
+
+                </div>
+            </section>
+        <section id="contacts">
+            <div class="contacts">
+                <section class="contacts-section">
+                    <div class="contacts-content">
+                        <h2>Contacts</h2>
+                        <h3>email:<a href="#mharchan2006@gmail.com">mharchan2006@gmail.com</a></h3>
+                        <h3>ph no:7200220559</h3>
+                                
+
+                    </div>
+                </section>
+            </div>
+        </section>
+        </div>
+    </section>
+</section>
+
+<footer>
+    <p>© 2025 portfolio2.All rights reserved.</p>
+</footer>
+
+
+</body>
+<script>
+        let button=document.getElementById("btn");
+    let colors=["red","green","orange","purple"];
+    let index=0;
+    setInterval(()=>{
+        button.style.backgroundColor=colors[index];
+        index=(index+1)%colors.length;
+    },2000);
+</script>
+
+</html>
